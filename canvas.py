@@ -37,7 +37,7 @@ class CanvasEditor:
                     fill=color,
                     outline="lightgray",
                     width=1,
-                    tags=f"pixel_{x}_{y}"  # Добавляем тег для поиска
+                    tags=f"pixel_{x}_{y}"  
                 )
 
     def paint(self, event):
